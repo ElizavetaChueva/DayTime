@@ -15,7 +15,7 @@ begin
   begin
     result += datetime.DaysInMonth(year, i);
   end;
-end;
+end; 
 
 function DaysInYearRange(year1, year2: integer): integer;
 begin
