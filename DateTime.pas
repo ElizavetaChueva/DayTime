@@ -26,9 +26,6 @@ begin
     end;
 end;
 
-function SecondsInHours(hours : integer): integer := hours * 60 * 60;
-
-function IsYearOfApocalypse(year : integer) : boolean := (year = 1992) or (year = 2005) or (year = 2011)
 
 begin
 
